@@ -1,0 +1,445 @@
+body{
+    margin: auto 3em;
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.head-cta{
+    background: #fff;
+    margin: 2em;
+    padding: 1em;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#logo{
+    margin-top: -1.5em;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2em;
+}
+
+ul{
+    list-style-type: none;
+    margin-top: .5em;
+}
+
+.primary-cta{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1.5em;
+    font-size: 1.1em;
+}
+
+.list{
+    padding: .8em;
+    color: #1f1f1f;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+.soro-cta{
+    background: #2ecc71;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 5em;
+    font-size: 1em;
+    color: #fff;
+}
+
+.left-cta {
+    background: #fff;
+    margin-top: 1.5em;
+    width: 350px;
+    height: 370px;
+    box-shadow: 5px 5px 4px rgb(206, 201, 201);
+    padding: 1em 2em;
+    position: relative;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #292828;
+}
+
+.desc {
+    font-size: .8em;
+    font-weight: lighter;
+    color: rgb(88, 84, 84);
+    line-height: 1.5em;
+}
+
+.round {
+    background: #2ecc71;
+    color: #fff;
+    padding: .8em 2.5em;
+    border-radius: 5em;
+    padding-right: -6em;
+    width: 7em;
+    text-align: center;
+    margin-top: 3em;
+    font-size: .8em;
+    cursor: pointer;
+}
+
+.round:hover {
+    font-weight: bold;
+    background: rgb(241, 179, 172);
+}
+
+.row {
+    display: flex;
+}
+
+#finger {
+    width: 3em;
+    height: 3em;
+    margin-top: 1.5em;
+}
+
+#hand {
+    height: 13em;
+    width: 18em;
+    margin-left: 8em;
+    margin-top: -3em;
+}
+
+.point {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: .8em;
+}
+
+span {
+    color: rgb(138, 133, 133);
+}
+
+.niger {
+    font-size: .7em;
+    margin-left: 0em;
+    margin-top: -.3em;
+    background: #f8edce;
+    padding: .5em 1em;
+    padding-left: 2em;
+    color: rgba(247, 110, 226, 0.867);
+    border-radius: .5em;
+}
+
+.flag {
+    width: 10em;
+    height: 5em;
+    box-shadow: 4px 4px 3px rgb(122, 121, 121);
+    padding: .3em .8em;
+    margin-left: 4em;
+    position: absolute;
+    z-index: 999;
+}
+
+#flag-cta {
+    width: 25em;
+}
+
+.here {
+    font-weight: lighter;
+    font-size: .8em;
+    color: rgb(109, 107, 107);
+    cursor: pointer;
+    font-style: italic;
+}
+
+.here:hover {
+    font-weight: bold;
+}
+
+.vec-cta {
+    margin-top: 2em;
+    height: 1.5em;
+    width: 1.5em;
+    margin-bottom: -1em;
+}
+
+h2 {
+    font-weight: bold;
+    color: rgb(24, 170, 214);
+    margin-bottom: -.3em;
+}
+
+.secure {
+    width: 12em;
+    height: 7em;
+    background: rgb(214, 232, 236);
+    padding: .5em 1em;
+    padding-top: -.5em;
+    margin-left: 10em;
+    margin-top: 3em;
+    border-radius: .5em;
+    padding-bottom: 1.3em;
+}
+
+#jpg-cta {
+    width: 2em;
+    height: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: -.2em;
+}
+
+.lance-cta {
+    display: block;
+    width: 12em;
+    height: 7em;
+    background: rgb(240, 215, 199);
+    padding: .5em 1em;
+    padding-top: -.5em;
+    margin-left: 2em;
+    margin-top: 3em;
+    border-radius: .5em;
+    padding-bottom: 1.3em;
+}
+
+.ambu-cta {
+    font-weight: bold;
+    color: red;
+    margin-bottom: -.1em;
+    font-size: 1.5em;
+    margin-top: .3em;
+}
+
+.care-cta {
+    display: flex;
+}
+
+#jus-cta {
+    width: 2em;
+    height: 1.5em;
+    margin-bottom: -1.2em;
+    margin-top: 2em;
+}
+
+.help-cta {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: red;
+    margin-bottom: -.3em;
+}
+
+.help {
+    width: 12em;
+    height: 7em;
+    background: rgb(240, 215, 199);
+    padding: .5em 1em;
+    padding-top: .3em;
+    margin-left: 2em;
+    margin-top: 3em;
+    border-radius: .5em;
+    padding-bottom: 1.3em;
+}
+
+#treat {
+    width: 2em;
+    height: 2em;
+    margin-top: 2em;
+    margin-bottom: -1.5em;
+}
+
+.first {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: green;
+    margin-bottom: -.5em;
+}
+
+.aid-cta {
+    width: 12em;
+    height: 7em;
+    padding: .5em 1em;
+    padding-top: .3em;
+    margin-left: 2em;
+    margin-top: 3em;
+    border-radius: .5em;
+    background: rgb(215, 247, 215);
+    padding-bottom: 1.3em;
+}
+
+.legal {
+    display: flex;
+    margin-bottom: 2em;
+    margin-left: 8em;
+}
+
+.right-cta {
+    width: 38em;
+    height: 24em;
+    box-shadow: 4px 4px 3px #c2bfbf;
+    align-items: center;
+    padding: 2em 3em;
+    padding-left: 0em;
+    padding-top: 1em;
+    padding-right: 8em;
+    margin-right: 5em;
+    border-radius: .5em;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6em;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-con {
+    width: 24em;
+    margin-right: 21em;
+}
+
+.peace {
+    color: rgb(39, 38, 38);
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: .5em;
+}
+
+.search {
+    background: #2ecc71;
+    color: #fff;
+    padding: .8em 2.5em;
+    border-radius: 5em;
+    padding-right: -6em;
+    width: 7em;
+    text-align: center;
+    margin-top: 3em;
+    font-size: .8em;
+    cursor: pointer;
+}
+
+.search:hover {
+    font-weight: bold;
+    background: rgb(241, 179, 172);
+}
+
+#mega {
+    height: 8em;
+    width: 9em;
+    margin-top: 2em;
+}
+
+.life {
+    font-size: 64px;
+    font-weight: bold;
+    color: #2ecc71;
+}
+
+.soke {
+    display: flex;
+    margin-top: 2em;
+}
+
+.what-cta {
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(39, 38, 38));
+}
+
+.happy {
+    width: 35em;
+}
+
+.container4 {
+    display: flex;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        margin: 2em;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .container2 {
+        display: block;
+    }
+
+    .right-cta {
+        width: 26em;
+        padding: 0em 0em;
+        margin-top: 2em;
+    }
+
+    .care-cta {
+        margin-left: -8em;
+    }
+
+    .legal {
+        margin-left: 0em;
+    }
+
+    .container3 {
+        display: block;
+        margin-top: -4em;
+    }
+
+    .container4 {
+        display: block;
+    }
+
+    .happy {
+        width: 26em;
+    }
+
+    .secure {
+        width: 8em;
+        height: 6em;
+    }
+
+    .lance-cta {
+        width: 8em;
+        height: 6em;
+    }
+
+    .help {
+        width: 8em;
+        height: 6em;
+    }
+
+    .aid-cta {
+        width: 8em;
+        height: 6em;
+    }
+
+    #hand {
+        width: 14em;
+    }
+
+    .soke {
+        margin-top: -6em;
+    }
+
+    #mega {
+        height: 12em;
+        width: 15em;
+        margin-left: -8em;
+    }
+
+    #flag-cta {
+        width: 26em;
+    }
+}
